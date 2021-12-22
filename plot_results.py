@@ -1,3 +1,8 @@
+# plot_results.py
+# Author: Mike Zhang
+# Date: 22/12-2021
+# Plot all results in barplots
+
 import collections
 import os
 from collections import defaultdict

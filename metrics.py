@@ -1,3 +1,8 @@
+# metrics.py
+# Author: Mike Zhang
+# Date: 22/12-2021
+# Calculate weighted macro-F1 for each model
+
 import os
 
 import matplotlib.pyplot as plt
