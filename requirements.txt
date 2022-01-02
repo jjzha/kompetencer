@@ -19,3 +19,6 @@ six==1.16.0
 threadpoolctl==3.0.0
 tomli==1.2.2
 tqdm==4.59.0
+allennlp==2.8.0
+networkx
+torch==1.8
