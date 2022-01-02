@@ -1,0 +1,15 @@
+{
+    "CRF": {
+        "train_data_path": "data/NER-de-train.tsv",
+        "validation_data_path": "data/NER-de-dev.tsv",
+        "word_idx": 1,
+        "max_sents": 1000,
+        "tasks": {
+            "ner": {
+                "task_type": "seq_bio",
+                "column_idx": 3
+            }
+        }
+    }
+}
+

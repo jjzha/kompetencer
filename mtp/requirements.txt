@@ -1,0 +1,11 @@
+# If you have problems installing all these packages, the only necessary
+# install to run MaChAmp is allennlp==2.8. networkx is used for converting
+# conllu files
+# other versions of torch should work, 1.7.1 crashes for seq2seq because 
+# https://pytorch.org/docs/1.7.1/generated/torch.div.html#torch.div is 
+# different. # It is called in allennlp/nn/beam_search.py
+
+allennlp==2.8.0
+networkx
+torch==1.8
+

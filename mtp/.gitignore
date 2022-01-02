@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+logs/
+*swp
+data
+wikiextractor
+scripts/ud-conversion-tools/
+configs/tmp
+preds.old
+logs.old
+preds
+preds2.7
+preds2.8

@@ -1,0 +1,41 @@
+Code:
+- seq2seq memory usage
+- redo tuning (UD2.9, xtreme?)
+- clean up scripts dir
+- update website
+
+Tests:
+- Performance for each decoder
+- Tokenization for each decoder
+- dataset embeddings encoder/decoder
+- dataset smoothing
+- change metrics
+- retrain a machamp model
+- loss weight/class weight
+- predict without gold
+- predict with --raw_text
+- xtreme: panx, udpos, xnli, pawsx
+- glue
+- UD2.9
+
+New feature ideas
+- change embeddings on command line?
+- heterogeneous batches
+- get performance for multiple dev sets each epoch
+- pass information between tasks
+- multiple dataset embeddings?
+- fix prediction after training, shouldnt reload the model so often
+- weight for dev files (or tasks?) for final model-picking (and early stopping?)
+- max_sents should be from shuffle?
+- save num_columns, and use during prediction
+- log the number of unknown words (hard, because tokenizer is not in model)
+- get rid of warnings
+- enable running mlm on other task data simultaneously
+- use AllenNLP FBetaMultiLabelMeasure and multiseqlabelfield?
+- log multiple metrics regardless of the one used for optimization (this would avoid retraining just to get new metrics - e.g., acc+f1, m+M F1, etc.)
+
+tasks:
+- constituency parsing
+- regression
+- relation extraction
+

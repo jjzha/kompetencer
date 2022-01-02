@@ -1,0 +1,16 @@
+{
+  "English_Jobs": {
+    "train_data_path": "data/1_en_train.tsv",
+    "validation_data_path": "data/3_en_dev.tsv",
+    "sent_idxs": [
+      0
+    ],
+    "tasks": {
+      "ESCO": {
+        "task_type": "classification",
+        "column_idx": 1,
+        "metric": "macro-f1"
+      }
+    }
+  }
+}
