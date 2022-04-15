@@ -10,7 +10,7 @@ and gold labels (Danish train+test).
 
 **We release the full job postings with their annotations upon acceptance.**
 
-[Note 15/04/2022]: Job postings are currently being de-identified according toGDPR regulations
+[Note 15/04/2022]: Job postings are currently being de-identified according to GDPR regulations
 
 The current weighted macro-F1 scores are *hardcoded* in the scripts, predictions can be found in `predictions/`
 
