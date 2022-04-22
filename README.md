@@ -8,13 +8,13 @@ Kompetencer: Fine-grained Skill Classification in Danish Job Postings via Distan
 In `data/`, you can find the skill and knowledge snippets with their distantly supervised labels (English train+dev+test)
 and gold labels (Danish train+test).
 
-**We release the full job postings with their annotations upon acceptance.**
-
-[Note 15/04/2022]: Job postings are currently being de-identified according to GDPR regulations
+__[Note 15/04/2022]__: Job postings are currently being de-identified according to GDPR regulations
 
 The current weighted macro-F1 scores are *hardcoded* in the scripts, predictions can be found in `predictions/`
 
-**We will release our DaJobBERT model upon acceptance.**
+# Models
+
+All models used in this paper can be found at: https://huggingface.co/jjzha
 
 ## Running the code
 
