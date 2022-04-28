@@ -36,3 +36,20 @@ Where you have to replace `$*` for the correct variable. For example:
 ```
 python3 predict.py logs/esco.new.dajobbert.da_classification.1/*/model.tar.gz data/ESCO/da_test.tsv predictions/da_test/dajobbert/1.out --device 0
 ```
+
+## Citation
+
+If you use the code, data, guidelines, models from Kompetencer, please include the following reference:
+
+```
+@misc{https://doi.org/10.48550/arxiv.2204.12811,
+      doi = {10.48550/ARXIV.2204.12811},
+      url = {https://arxiv.org/abs/2204.12811},
+      author = {Zhang, Mike and Jensen, Kristian Nørgaard and Sonniks, Sif Dam and Plank, Barbara},
+      keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+      title = {SkillSpan: Hard and Soft Skill Extraction from English Job Postings},
+      publisher = {arXiv},
+      year = {2022},
+      copyright = {arXiv.org perpetual, non-exclusive license}
+}
+```
