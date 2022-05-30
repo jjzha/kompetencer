@@ -9,7 +9,7 @@ and gold labels (Danish train+test).
 
 __[Note 15/04/2022]__: Job postings are currently being de-identified according to GDPR regulations
 
-__[Note 30/05/2022]__: Danish job postings annotated for skills and knowledge can be found here: https://drive.google.com/file/d/1LoGmoz1BKfEaBFXvyMhaTh2PPTYxNJR0/view?usp=sharing.
+__[Note 30/05/2022]__: Danish job postings annotated for skills and knowledge can be found here: https://drive.google.com/file/d/1LoGmoz1BKfEaBFXvyMhaTh2PPTYxNJR0/view?usp=sharing
 
 The data is structured in the `conll` format:
 ```
