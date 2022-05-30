@@ -1,7 +1,6 @@
 # Kompetencer
 Kompetencer: Fine-grained Skill Classification in Danish Job Postings via Distant Supervision and Transfer Learning
 
-**README is in progress.**
 
 ## Cloning this repo
 
@@ -9,6 +8,17 @@ In `data/`, you can find the skill and knowledge snippets with their distantly s
 and gold labels (Danish train+test).
 
 __[Note 15/04/2022]__: Job postings are currently being de-identified according to GDPR regulations
+
+__[Note 30/05/2022]__: Danish job postings annotated for skills and knowledge can be found here: https://drive.google.com/file/d/1LoGmoz1BKfEaBFXvyMhaTh2PPTYxNJR0/view?usp=sharing.
+
+The data is structured in the `conll` format:
+```
+Token <\t> Skill-tag <\t> Knowledge-tag
+
+e.g.,
+Python <\t> O <\t> B-Knowledge
+...
+```
 
 The current weighted macro-F1 scores are *hardcoded* in the scripts, predictions can be found in `predictions/`
 
