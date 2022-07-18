@@ -1,6 +1,22 @@
 # Kompetencer
 Kompetencer: Fine-grained Skill Classification in Danish Job Postings via Distant Supervision and Transfer Learning
 
+If you use the code, data, guidelines, models from Kompetencer, please include the following reference:
+
+```
+@InProceedings{zhang-jensen-plank:2022:LREC,
+  author    = {Zhang, Mike  and  Jensen, Kristian N{\o}rgaard  and  Plank, Barbara},
+  title     = {Kompetencer: Fine-grained Skill Classification in Danish Job Postings via Distant Supervision and Transfer Learning},
+  booktitle      = {Proceedings of the Language Resources and Evaluation Conference},
+  month          = {June},
+  year           = {2022},
+  address        = {Marseille, France},
+  publisher      = {European Language Resources Association},
+  pages     = {436--447},
+  abstract  = {Skill Classification (SC) is the task of classifying job competences from job postings. This work is the first in SC applied to Danish job vacancy data. We release the first Danish job posting dataset: *Kompetencer* (\_en\_: competences), annotated for nested spans of competences. To improve upon coarse-grained annotations, we make use of The European Skills, Competences, Qualifications and Occupations (ESCO; le Vrang et al., (2014)) taxonomy API to obtain fine-grained labels via distant supervision. We study two setups: The zero-shot and few-shot classification setting. We fine-tune English-based models and RemBERT (Chung et al., 2020) and compare them to in-language Danish models. Our results show RemBERT significantly outperforms all other models in both the zero-shot and the few-shot setting.},
+  url       = {https://aclanthology.org/2022.lrec-1.46}
+}
+```
 
 ## Cloning this repo
 
@@ -45,21 +61,4 @@ python3 predict.py logs/esco.new.$MODEL.$PARAMETERS.$c/*/model.tar.gz data/ESCO/
 Where you have to replace `$*` for the correct variable. For example:
 ```
 python3 predict.py logs/esco.new.dajobbert.da_classification.1/*/model.tar.gz data/ESCO/da_test.tsv predictions/da_test/dajobbert/1.out --device 0
-```
-
-## Citation
-
-If you use the code, data, guidelines, models from Kompetencer, please include the following reference:
-
-```
-@misc{https://doi.org/10.48550/arxiv.2204.12811,
-      doi = {10.48550/ARXIV.2204.12811},
-      url = {https://arxiv.org/abs/2204.12811},
-      author = {Zhang, Mike and Jensen, Kristian Nørgaard and Sonniks, Sif Dam and Plank, Barbara},
-      keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
-      title = {SkillSpan: Hard and Soft Skill Extraction from English Job Postings},
-      publisher = {arXiv},
-      year = {2022},
-      copyright = {arXiv.org perpetual, non-exclusive license}
-}
 ```
