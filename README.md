@@ -27,6 +27,8 @@ __[Note 15/04/2022]__: Job postings are currently being de-identified according 
 
 __[Note 30/05/2022]__: Danish job postings annotated for skills and knowledge can be found here: https://drive.google.com/file/d/1LoGmoz1BKfEaBFXvyMhaTh2PPTYxNJR0/view?usp=sharing
 
+*Note:* The data can now also be found in `data/*`
+
 The data is structured in the `conll` format:
 ```
 Token <\t> Skill-tag <\t> Knowledge-tag
@@ -37,6 +39,10 @@ Python <\t> O <\t> B-Knowledge
 ```
 
 The current weighted macro-F1 scores are *hardcoded* in the scripts, predictions can be found in `predictions/`
+
+
+### Licensing
+This work is licensed under a Creative Commons Attribution 4.0 International License.
 
 # Models
 
