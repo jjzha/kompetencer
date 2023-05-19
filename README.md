@@ -41,9 +41,6 @@ Python <\t> O <\t> B-Knowledge
 The current weighted macro-F1 scores are *hardcoded* in the scripts, predictions can be found in `predictions/`
 
 
-### Licensing
-This work is licensed under a Creative Commons Attribution 4.0 International License.
-
 # Models
 
 All models used in this paper can be found at: https://huggingface.co/jjzha
