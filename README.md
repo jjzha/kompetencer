@@ -38,7 +38,7 @@ Python <\t> O <\t> B-Knowledge
 ...
 ```
 
-The current weighted macro-F1 scores are *hardcoded* in the scripts, predictions can be found in `predictions/`
+For plotting, the current weighted macro-F1 scores are *hardcoded* in the scripts, predictions can be found in `predictions/`
 
 
 # Models
